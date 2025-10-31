@@ -8,7 +8,7 @@ const About = () => {
       <Row className="align-items-center">
         <Col md={6}>
           <p>
-            Founded in 1990, Thalapathy Restaurant has established itself as one the best fine dining restaurant in Chennai.
+            Founded in 1990 with the aim of serving manking, Thalapathy Restaurant has established itself as one the best fine dining restaurant in Chennai.
             It is the favourite restaurant for Dr. M.G. Ravichandran. Our restaurant has a great ambiance and atmosphere.
             You will have an unforgettable dining experience.
           </p>

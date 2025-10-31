@@ -17,7 +17,7 @@ const App = () => {
   const [menuItems, setMenuItems] = useState([
     {
       id: 1,
-      title: "Tamil Nadu Veg Meals",
+      title: "Tamil Nadu Non Veg Meals",
       description: "Tamil Nadu famous vegetarian meals served in banana leaf .Rice, Sambar, Dhal, Rasam, Poriyal, Kottu, Pappad, Payasam",
       price: "399",
       image: "/tn.png",
