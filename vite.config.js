@@ -3,13 +3,14 @@ import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/BookMyBite-Restaurant-Dining-Booking-Website-React/',   // REQUIRED FOR GITHUB PAGES
   plugins: [react()],
   server: {
     watch: {
       usePolling: true,
     },
-    host: true, // needed for the Docker Container port mapping to work
+    host: true,
     strictPort: true,
-    port: 5173, // you can replace this port with any port
+    port: 5173,
   }
 })
